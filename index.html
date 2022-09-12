@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telugu Cinema | Bollywood | Tamil | Kannada - Cine Chit Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="home" viewBox="0 0 24 24">
+            <path d="M3.8499 21.1V11.725L2.0749 13.05L0.774902 11.3L3.8499 8.95001V5.77501H6.0249V7.30001L11.9999 2.75001L23.2249 11.3L21.8999 13.025L20.1499 11.725V21.1H3.8499ZM6.0249 18.9H10.8749V14.9H13.0749V18.9H17.9749V10.05L11.9999 5.50001L6.0249 10.05V18.9ZM3.8499 4.77501C3.8499 3.85835 4.17057 3.07501 4.8119 2.42501C5.4539 1.77501 6.23324 1.45001 7.1499 1.45001C7.48324 1.45001 7.75824 1.34168 7.9749 1.12501C8.19157 0.908346 8.2999 0.641679 8.2999 0.325012H10.4749C10.4749 1.24168 10.1542 2.02501 9.5129 2.67501C8.8709 3.32501 8.08324 3.65001 7.1499 3.65001C6.83324 3.65001 6.56657 3.75835 6.3499 3.97501C6.13324 4.19168 6.0249 4.45835 6.0249 4.77501H3.8499Z" />
+        </symbol>
+        <symbol id="search" viewBox="0 0 32 32">
+            <path d="M29.71,28.29l-6.5-6.5-.07,0a12,12,0,1,0-1.39,1.39s0,.05,0,.07l6.5,6.5a1,1,0,0,0,1.42,0A1,1,0,0,0,29.71,28.29ZM14,24A10,10,0,1,1,24,14,10,10,0,0,1,14,24Z"/>
+        </symbol>
+    </svg>
+    <div class="gutterLHS"><img src="images/120x600.jpg" alt=""></div>
+    <div class="gutterRHS"><img src="images/120x600.jpg" alt=""></div>
+    <header class="main_header">
+        <div class="top_head">
+            <div class="container">
+                <div class="site_logo">
+                    <h1>
+                        <a href="#"><img width="201" height="88" src="images/logo.svg" alt=""></a>
+                    </h1>
+                </div>
+                <div class="adsCont"></div>
+                <div class="topright_nav">
+                    <div class="topSearch">
+                        <div class="search-icon"><svg><use href="#search"></use></svg></div>
+                        <form action="" method="get" id="headerSearchMob" class="search" style="display: none;">
+                            <div class="search-box">
+                                <input autocomplete="off" placeholder="Search" type="text" value="" id="searchText2"
+                                    name="q">
+                                <button class="search-form-btn" type="submit"><svg><use href="#search"></use></svg></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="toggleNav"><span class="MenuBtn"><i></i><i></i><i></i></span></div>
+                </div>
+                <div id="megaMenu" class="menuNavigation">
+                    <div class="trending_link">
+                        <a href="#"><strong>Trending News</strong></a>
+                    </div>
+                    <ul class="listItems">
+                        <li class="hassubmenu">
+                            <a title="" href="#" class="menuHead">Cinema News</a><span></span>
+                            <ul class="subItems">
+                                <li><a title="" href="#">Tollywood</a> </li>
+                                <li><a title="" href="#">Bollywood</a> </li>
+                                <li><a title="" href="#">Malayalam Cinema</a> </li>
+                                <li><a title="" href="#">Hollywood</a> </li>
+                            </ul>
+                        </li>
+                        <li><a title="" href="#" class="menuHead">Politics</a></li>
+                        <li><a title="" href="#" class="menuHead">Movie review</a></li>
+                        <li><a title="" href="#" class="menuHead">Videos</a></li>
+                        <li><a title="" href="#" class="menuHead">Lifestyle</a></li>
+                        <li><a title="" href="#" class="menuHead">Photos</a></li>
+                        <li><a title="" href="#" class="menuHead">తెలుగు</a></li>
+                        <li><a title="" href="#" class="menuHead">தமிழ்</a></li>
+                        <li><a title="" href="#" class="menuHead">ಕನ್ನಡ</a></li>
+                    </ul>
+                    <div class="connectUS">
+                        <h3>Connect With Us On Social Media</h3>
+                        <ul>
+                            <li><a class="fb_icon" title="FaceBook" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                            <li><a class="tw_icon" title="Twitter" target="_blank" href="#" rel="nofollow noopener"></a>
+                            </li>
+                            <li><a class="yt_icon" title="Youtube" target="_blank" href="#" rel="nofollow noopener"></a>
+                            </li>
+                            <li><a class="insta_icon" title="Instagram" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top_navbar">
+            <div class="container">
+                <div class="topleft_menu">
+                    <ul>
+                        <li><a href="#"><svg><use href="#home"></use></svg></a></li>
+                        <li><a href="#">Cinema News</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Movie review</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Photos</a></li>
+                    </ul>
+                </div>
+                <div class="topright_menu">
+                    <ul>
+                        <li><a href="#">తెలుగు</a></li>
+                        <li><a href="#">தமிழ்</a></li>
+                        <li><a href="#">ಕನ್ನಡ</a></li>
+                    </ul>
+                    <div class="topSearch">
+                        <div class="search-icon"><svg><use href="#search"></use></svg></div>
+                        <form action="" method="get" id="headerSearch" class="search" style="display: none;">
+                            <div class="search-box">
+                                <input autocomplete="off" placeholder="Search" type="text" value="" id="searchText2"
+                                    name="q">
+                                <button class="search-form-btn" type="submit"><svg><use href="#search"></use></svg></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid homepage_wrapper">
+        <div class="container">
+            <div class="topNews_Wrapper">
+                <div class="topNews_leftColumn">
+                    <div class="left_col">
+                        <div class="commonHD">
+                            <h2><a href="#">Latest News</a></h2>
+                        </div>
+                        <div class="content_wrapper">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="279" height="157" src="images/Rectangle130.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Cinema News</a></div>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Cinema News</a></div>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Cinema News</a></div>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Cinema News</a></div>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="view_more_btn">
+                            <a href="#">View more latest news</a>
+                        </div>
+                    </div>
+                    <div class="right_col">
+                        <div class="topNews_Carousel">
+                            <div id="topnews_carousel">
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">Sita Ramam Movie Review</a></h3>
+                                        <p>Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</p>
+                                    </figcaption>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="519" height="292" src="images/Rectangle11.jpg" alt=""></a>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">Sita Ramam Movie Review</a></h3>
+                                        <p>Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</p>
+                                    </figcaption>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="519" height="292" src="images/Rectangle11.jpg" alt=""></a>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">Sita Ramam Movie Review</a></h3>
+                                        <p>Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</p>
+                                    </figcaption>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="519" height="292" src="images/Rectangle11.jpg" alt=""></a>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">Sita Ramam Movie Review</a></h3>
+                                        <p>Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</p>
+                                    </figcaption>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="519" height="292" src="images/Rectangle11.jpg" alt=""></a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="topNews_ListWrapper">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Tollywood</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="174" height="98" src="images/Rectangle136.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">#NTR30 : Koratala Siva back to the drawing board</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="174" height="98" src="images/Rectangle132a.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Tollywood</a></div>
+                                    <h3><a href="#">Top league actress Samantha is away from social media for quite some time now</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Movie review</a></div>
+                                    <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="174" height="98" src="images/Rectangle136.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <div class="catName"><a href="#">Tollywood</a></div>
+                                    <h3><a href="#">#NTR30 : Koratala Siva back to the drawing board</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="topNews_rightColumn">
+                    <div class="adsCont"></div>
+                    <div class="newsListing">
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Cinema News</a></div>
+                                <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Movie review</a></div>
+                                <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Cinema News</a></div>
+                                <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Movie review</a></div>
+                                <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Cinema News</a></div>
+                                <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Movie review</a></div>
+                                <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>   
+                        <figure>
+                            <figcaption>
+                                <div class="catName"><a href="#">Cinema News</a></div>
+                                <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                <div class="timeStamp">38 minutes ago</div>
+                            </figcaption>
+                        </figure>                  
+                    </div>
+                </div>
+            </div>
+            <div class="webStory_Wrapper">
+                <div class="commonHD">
+                    <h2><a href="#">Web Stories</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="webStories">
+                    <figure>
+                        <div class="imgwrap"><a href="#"><img width="205" height="303" src="images/Rectangle20.jpg" alt=""></a></div>
+                        <figcaption>
+                            <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap"><a href="#"><img width="205" height="303" src="images/Rectangle21.jpg" alt=""></a></div>
+                        <figcaption>
+                            <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap"><a href="#"><img width="205" height="303" src="images/Rectangle22.jpg" alt=""></a></div>
+                        <figcaption>
+                            <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap"><a href="#"><img width="205" height="303" src="images/Rectangle23.jpg" alt=""></a></div>
+                        <figcaption>
+                            <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap"><a href="#"><img width="205" height="303" src="images/Rectangle24.jpg" alt=""></a></div>
+                        <figcaption>
+                            <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to come up with his next film..</a></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="adsCont"></div>
+            <div class="commonNews_GridLayoutOne grey_bg">
+                <div class="commonHD">
+                    <h2><a href="#">Cinema News</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="grid_col_layout">
+                    <div class="left_grid_col">
+                        <div class="two_column_layout">
+                            <div class="left_col">
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                        <div class="timeStamp">38 minutes ago <span class="vid_ic">03 mins</span></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                        <div class="timeStamp">38 minutes ago <span class="vid_ic">03 mins</span></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="right_col">
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="434" height="244" src="images/Rectangle136.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Behind the Art: How Gustav Klimt's ‘The Kiss’ sparked a sexual revolution</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_grid_col">
+                        <div class="newsListing">
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">Kohli and Babar rather than Kohli versus Babar</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="commonNews_GridLayoutTwo">
+                <div class="commonHD">
+                    <h2><a href="#">Political News</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="grid_col_layout">
+                    <div class="left_grid_col">
+                        <div class="two_column_layout">
+                            <div class="left_col">
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="279" height="157" src="images/Rectangle140.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="right_col">
+                                <figure>
+                                    <a href="#">
+                                        <div class="imgwrap">
+                                            <a href="#"><img width="586" height="329" src="images/Rectangle139.jpg" alt=""></a>
+                                        </div>
+                                        <figcaption>
+                                            <h3><a href="#">Babu's protest continues in Kuppam...Fans demand that NTR be handed over the responsibilities</a></h3>
+                                            <div class="timeStamp">38 minutes ago</div>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_grid_col">
+                        <div class="newsListing">
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">Kohli and Babar rather than Kohli versus Babar</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photoGallery_Widget">
+                <div class="commonHD">
+                    <h2><a href="#">Photo Gallery</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="photoGrid_col">
+                    <div class="photoCol_1">
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="279" height="157" src="images/Rectangle142.jpg" alt=""></a>
+                                <span class="photo_ic"></span>
+                            </div>
+                            <figcaption>
+                                <h3><a href="#">Siddhu Jonnalagadda thanked Junior NTR</a></h3>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="279" height="157" src="images/Rectangle144.jpg" alt=""></a>
+                                <span class="photo_ic"></span>
+                            </div>
+                            <figcaption>
+                                <h3><a href="#">Ram Charan, Alia Bhatt starrer ‘RRR’ is a much-awaited movie this March!</a></h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="photoCol_2">
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="571" height="318" src="images/Rectangle143.jpg" alt=""></a>
+                                <span class="photo_ic"></span>
+                            </div>
+                            <figcaption>
+                                <h3><a href="#">HD pics from Niharika Konidela and JV Chaitanya’s destination wedding in Udaipur</a></h3>
+                            </figcaption>
+                        </figure>   
+                    </div>
+                    <div class="photoCol_3">
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="279" height="157" src="images/Rectangle145.jpg" alt=""></a>
+                                <span class="photo_ic"></span>
+                            </div>
+                            <figcaption>
+                                <h3><a href="#">Nikhil Siddharth misses fiancee Pallavi: For now, love you from afar</a></h3>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="279" height="157" src="images/Rectangle146.jpg" alt=""></a>
+                                <span class="photo_ic"></span>
+                            </div>
+                            <figcaption>
+                                <h3><a href="#">'Major,' a homage to the 26/11 hero Major Sandeep Unnikrishnan</a></h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="movieReview_Wrapper">
+                <div class="commonHD">
+                    <h2><a href="#">Movie Reviews</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="movieReviews">
+                    <figure>
+                        <div class="imgwrap">
+                            <a href="#"><img width="181" height="243" src="images/Rectangle147.jpg" alt=""></a>
+                        </div>
+                        <figcaption>
+                            <h3><a href="#">Karthikeya 2 – <span>Enjoyable adventure drama</span></a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap">
+                            <a href="#"><img width="181" height="243" src="images/Rectangle155.jpg" alt=""></a>
+                        </div>
+                        <figcaption>
+                            <h3><a href="#">Macherla Niyojakavargam – <span>Outdated action drama</span></a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap">
+                            <a href="#"><img width="181" height="243" src="images/Rectangle158.jpg" alt=""></a>
+                        </div>
+                        <figcaption>
+                            <h3><a href="#">Bimbisara – <span>Entertaining Fantasy Drama</span></a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap">
+                            <a href="#"><img width="181" height="243" src="images/Rectangle159.jpg" alt=""></a>
+                        </div>
+                        <figcaption>
+                            <h3><a href="#">Ramarao On Duty – <span>Misses the target</span></a></h3>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="imgwrap">
+                            <a href="#"><img width="181" height="243" src="images/Rectangle162.jpg" alt=""></a>
+                        </div>
+                        <figcaption>
+                            <h3><a href="#">Sita Ramam – <span>Beautiful Love Story</span></a></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="commonNews_GridLayoutOne grey_bg">
+                <div class="commonHD">
+                    <h2><a href="#">Lifestyle</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="grid_col_layout">
+                    <div class="left_grid_col">
+                        <div class="two_column_layout">
+                            <div class="left_col">
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="174" height="98" src="images/Rectangle132.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Liger Box Office Collection Day 3: Vijay Deverakonda-Ananya Panday starrer sees a marginal drop</a></h3>
+                                        <div class="timeStamp">38 minutes ago <span class="vid_ic">03 mins</span></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <figcaption>
+                                        <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                        <div class="timeStamp">38 minutes ago <span class="vid_ic">03 mins</span></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="right_col">
+                                <figure>
+                                    <div class="imgwrap">
+                                        <a href="#"><img width="434" height="244" src="images/Rectangle136.jpg" alt=""></a>
+                                    </div>
+                                    <figcaption>
+                                        <h3><a href="#">Behind the Art: How Gustav Klimt's ‘The Kiss’ sparked a sexual revolution</a></h3>
+                                        <div class="timeStamp">38 minutes ago</div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_grid_col">
+                        <div class="newsListing">
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">#BoycottBollywood, and its impact on the industry</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">Kohli and Babar rather than Kohli versus Babar</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h3><a href="#">All eyes on India-Pak match today: 'Hype outside, normal inside'</a></h3>
+                                    <div class="timeStamp">38 minutes ago</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="videoGallery_Widget">
+                <div class="commonHD">
+                    <h2><a href="#">Video Gallery</a></h2>
+                    <a href="#" class="moreNews">see all</a>
+                </div>
+                <div class="twoColumnLayout">
+                    <div class="left_col">
+                        <figure>
+                            <div class="imgwrap">
+                                <a href="#"><img width="519" height="292" src="images/Rectangle11.jpg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <small>Now Playing..</small>
+                                <h3><a href="#">Sita Ramam pre relese event at Shilparamam</a></h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="right_col vg_carousel">
+                        <div id="videogallery_carousel">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle75.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle76.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle77.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle75.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle76.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img width="166" height="102" src="images/Rectangle77.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Hanu Ragjavapudi after Padi Padi Leche Manasu took time to </a></h3>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <footer class="main_footer">
+        <span class="scrolltop"></span>
+        <div class="container">
+            <div class="copyRight">Copyright &copy; Cine chit chat 2022.  All rights reserved.</div>
+            <div class="poweredBy">Powered by Veegam</div>
+            <div class="footerLinks">
+                <ul>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script>
+        tns({
+            "container": "#topnews_carousel",
+            "items": 1,
+            "slideBy": 1,
+            "speed": 400,      
+            navPosition: "bottom",
+            preventScrollOnTouch:"force"
+        });
+    </script>
+    <script>
+        tns({
+            "container": "#videogallery_carousel",
+            "items": 3,
+            "slideBy": 1,
+            "speed": 400,   
+            gutter: 20,   
+            navPosition: "bottom",
+            preventScrollOnTouch:"force",
+            "responsive": { 
+                "360": { 
+                    "items": 1.2 
+                }, 
+                "1000": { 
+                    "items": 3 
+                }
+            }
+        });
+    </script>
+</body>
+</html>
